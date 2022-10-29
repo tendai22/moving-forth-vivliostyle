@@ -1,0 +1,70 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "author": "Brad Rodriguez",
+  "inLanguage": "ja",
+  "dateModified": "2022-10-29T17:28:47.129Z",
+  "name": "MOVING FORTH",
+  "readingOrder": [
+    {
+      "url": "index.html",
+      "name": "Table of Contents",
+      "rel": "contents",
+      "type": "LinkedResource"
+    },
+    {
+      "url": "Part1.html",
+      "name": "Part 1: Design Decisions in the Forth Kernel"
+    },
+    {
+      "url": "Part2.html",
+      "name": "Part 2: Benchmarks and Case Studies of Forth Kernels"
+    },
+    {
+      "url": "Part3.html",
+      "name": "Part 3: Demystifying DOES>"
+    },
+    {
+      "url": "Part4.html",
+      "name": "Part 4: Assemble or Metacompile?"
+    },
+    {
+      "url": "Part5.html",
+      "name": "Part 5: The Z80 Primitives"
+    },
+    {
+      "url": "Part6.html",
+      "name": "Part 6: the Z80 high-level kernel"
+    },
+    {
+      "url": "Part7.html",
+      "name": "Part 7: CamelForth for the 8051"
+    },
+    {
+      "url": "Part8.html",
+      "name": "Part 8: CamelForth for the 6809"
+    },
+    {
+      "url": "glosslo.html",
+      "name": "Table 1. Glossary of WORDs in CAMEL80.AZM"
+    },
+    {
+      "url": "cameltst.html",
+      "name": "リスト1: Primitive testing code"
+    },
+    {
+      "url": "camel80.html",
+      "name": "リスト2: CamelForth for the Zilog Z80"
+    },
+    {
+      "url": "camel80d.html",
+      "name": "リスト3: Z80用CamelForth 定義部分"
+    }
+  ],
+  "resources": [],
+  "links": []
+}
