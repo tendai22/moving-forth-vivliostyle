@@ -1,4 +1,6 @@
-*.html
+.vivliostyle/
+*.pdf
+
 # Logs
 logs
 *.log

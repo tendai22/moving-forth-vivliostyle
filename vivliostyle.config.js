@@ -38,7 +38,8 @@ const vivliostyleConfig = {
   //     format: 'webpub',
   //   },
    ],
-  // workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
+   workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
+   theme: '@vivliostyle/theme-techbook', // .css or local dir or npm pa
    toc: true, // whether generate and include ToC HTML or not, default to 'false'.
   // cover: './cover.png', // cover image. default to undefined.
   // vfm: { // options of VFM processor
