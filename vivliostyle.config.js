@@ -5,7 +5,7 @@ const vivliostyleConfig = {
   author: 'Brad Rodriguez', // default to 'author' in 'package.json' or undefined
   language: 'ja',
   // readingProgression: 'rtl', // reading progression direction, 'ltr' or 'rtl'.
-  size: 'A4',
+  size: 'JIS-B5',
   // theme: '', // .css or local dir or npm package. default to undefined
   image: 'ghcr.io/vivliostyle/cli:5.8.1',
   entry: [ // **required field**
@@ -38,9 +38,10 @@ const vivliostyleConfig = {
   //     format: 'webpub',
   //   },
    ],
-   workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
-   theme: '@vivliostyle/theme-techbook', // .css or local dir or npm pa
-   toc: true, // whether generate and include ToC HTML or not, default to 'false'.
+  workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
+  // theme: '@vivliostyle/theme-techbook', // .css or local dir or npm pa
+  theme: 'themes/mytheme', // .css or local dir or npm pa
+  toc: true, // whether generate and include ToC HTML or not, default to 'false'.
   // cover: './cover.png', // cover image. default to undefined.
   // vfm: { // options of VFM processor
   //   replace: [ // specify replace handlers to modify HTML outputs
