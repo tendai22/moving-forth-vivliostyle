@@ -1,5 +1,8 @@
 .vivliostyle/
 *.pdf
+themes/mytheme/*.css
+themes/mytheme/*.css.map
+
 
 # Logs
 logs
